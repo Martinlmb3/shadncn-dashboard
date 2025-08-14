@@ -1,0 +1,52 @@
+{
+  "sales": [
+    {
+      "namee": "Jan",
+      "sales": 4000
+    },
+    {
+      "namee": "Feb", 
+      "sales": 3000
+    },
+    {
+      "namee": "Mar",
+      "sales": 5000
+    },
+    {
+      "namee": "Apr",
+      "sales": 4500
+    },
+    {
+      "namee": "May",
+      "sales": 6000
+    },
+    {
+      "namee": "Jun",
+      "sales": 5500
+    },
+    {
+      "namee": "Jul",
+      "sales": 7000
+    },
+    {
+      "namee": "Aug",
+      "sales": 6500  
+    },
+    {
+      "namee": "Sep",
+      "sales": 8000
+    },
+    {
+      "namee": "Oct",
+      "sales": 7500
+    },
+    {
+      "namee": "Nov",
+      "sales": 9000
+    },
+    {
+      "namee": "Dec",
+      "sales": 8500
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "sidebarItems": [
+    {
+      "name": "Home",
+      "href": "/",
+      "icon": "Home"
+    },
+    {
+      "name": "Pricing",
+      "href": "/pricing",
+      "icon": "DollarSign"
+    },
+    {
+      "name": "Shopping",
+      "href": "/shopping",
+      "icon": "ShoppingBag"
+    },
+    {
+      "name": "Cart",
+      "href": "/cart",
+      "icon": "ShoppingCart"
+    },
+    {
+      "name": "Mail",
+      "href": "/mail",
+      "icon": "Mail"
+    },
+    {
+      "name": "Users",
+      "href": "/users",
+      "icon": "Users"
+    },
+    {
+      "name": "Messages",
+      "href": "/messages",
+      "icon": "Mail"
+    },
+    {
+      "name": "Info",
+      "href": "/info",
+      "icon": "Info"
+    },
+    {
+      "name": "Settings",
+      "href": "/settings",
+      "icon": "Settings"
+    }
+  ]
+}
