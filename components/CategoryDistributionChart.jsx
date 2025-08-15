@@ -8,7 +8,7 @@ const CategoryDistributionChart= () => {
     useEffect(() => {
         fetch("/data/categoryData.json")
             .then((response) => response.json())
-            .then((data) => setCategoryData(data))
+            .then((data) => setCategoryData(data || []))
             .catch((error) => console.error("Error fetching category data:", error));
     }, []);
     useEffect(() => {
@@ -40,7 +40,7 @@ const CategoryDistributionChart= () => {
                             labelLine={false} 
                             outerRadius={outerRadius}
                             label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}>
-                            {categoryData.map((entry, index) => (
+                            {categoryData?.map((entry, index) => (
                                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                             ))}
                         </Pie>

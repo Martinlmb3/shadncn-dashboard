@@ -15,8 +15,8 @@ const Sidebar = () => {
   useEffect(() => { 
     fetch("/data/data.json")
       .then((res) => res.json())
-      .then((data) => {setSidebarItems(data.sidebarItems)})
-      
+      .then((data) => {setSidebarItems(data.sidebarItems || [])})
+      .catch((error) => console.error("Error fetching sidebar data:", error))
   }, [])
 
   return (
@@ -29,7 +29,7 @@ const Sidebar = () => {
           <Menu size={24} />
         </button>
         <nav className="mt-8 flex-grow">
-          {sidebarItems.map((item) => {
+          {sidebarItems?.map((item) => {
             const IconComponent = ICONS[item.icon]
             return (
               <Link key={item.name} href={item.href}>
