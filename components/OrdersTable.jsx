@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Search, Edit, Trash2 } from "lucide-react";
-
-const OrdersTable = ({ ordersData }) => {
+import ordersData from "../public/data/ordersData.json";
+const OrdersTable = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredOrders, setFilteredOrders] = useState(ordersData.orders);
 

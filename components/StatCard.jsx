@@ -9,7 +9,6 @@ function StatCard({ name, icon: Icon, value }) {
                     <Icon size={24} className="mr-2" />
                     {name}
                 </span>
-                <span className="block text-2xl font-bold">{value}</span>
                 <p className="mt-1 text-3xl font-semibold text-white">{value}</p>
             </div>
         </motion.div>

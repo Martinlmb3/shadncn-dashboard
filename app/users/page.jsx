@@ -2,8 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import StatCard from "@/components/StatCard";
-import { RotateCcw, UserCheck, UserPlus, UsersIcon } from "lucide-react";
-import {UsersTable} from "@/components/UsersTable";
+import { RotateCcw, UserCheck, UserPlus, UsersIcon, Trash2 } from "lucide-react";
+import UsersTable from "@/components/UsersTable";
 const UsersPage = () => {
   return (
     <div className="flex-1 overflow-auto relative z-10">

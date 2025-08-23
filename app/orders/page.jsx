@@ -3,6 +3,15 @@ import React from "react";
 import { motion } from "framer-motion";
 import StatCard from "@/components/StatCard";
 import { ShoppingBag, CheckCircle, Clock, Ban } from "lucide-react";
+import OrdersTable from "@/components/OrdersTable";
+
+
+const orderStats = [
+  { name: "Total Orders", value: "1,234", icon: "ShoppingBag" },
+  { name: "Completed Orders", value: "987", icon: "CheckCircle" },
+  { name: "Pending Orders", value: "143", icon: "Clock" },
+  { name: "Cancelled Orders", value: "104", icon: "Ban" },
+];
 
 const iconMap = {
   ShoppingBag,
@@ -21,7 +30,7 @@ function OrdersPage() {
           transition={{ duration: 1 }}
           className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 mb-8"
         >
-          {ordersData.orderStats.map(({ name, value, icon }) => {
+          {orderStats.map(({ name, value, icon }) => {
             const IconComponent = iconMap[icon];
             return (
               <StatCard
@@ -33,6 +42,7 @@ function OrdersPage() {
             );
           })}
         </motion.div>
+        <OrdersTable />
       </main>
     </div>
   );

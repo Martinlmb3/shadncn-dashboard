@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import productData from "../public/data/data.json";
+import productData from "../public/data/productData.json"; // Changé de data.json à productData.json
 import { motion } from "framer-motion";
-import { Edit, Search } from "lucide-react";
+import { Edit, Search, Save, Trash2 } from "lucide-react";
 import Image from "next/image";
 
 const ProductsTable = () => {
