@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Electronics",
+    "value": 35
+  },
+  {
+    "name": "Clothing",
+    "value": 25
+  },
+  {
+    "name": "Books",
+    "value": 15
+  },
+  {
+    "name": "Home & Garden",
+    "value": 20
+  },
+  {
+    "name": "Sports",
+    "value": 5
+  }
+]
