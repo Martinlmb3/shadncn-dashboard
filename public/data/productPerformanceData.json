@@ -1,0 +1,20 @@
+[
+  {
+    "product": "Smartphone",
+    "retention": 5000,
+    "revenue": 2500,
+    "profit": 2000
+  },
+  {
+    "product": "Coffee Table",
+    "retention": 3000,
+    "revenue": 4000,
+    "profit": 3500
+  },
+  {
+    "product": "Running Shoes",
+    "retention": 2000,
+    "revenue": 9000,
+    "profit": 3000
+  }
+]

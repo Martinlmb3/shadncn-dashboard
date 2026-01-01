@@ -11,25 +11,25 @@ const Sidebar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true)
   const [sidebarItems, setSidebarItems] = useState([])
   const pathname = usePathname()
-  
-  useEffect(() => { 
+
+  useEffect(() => {
     fetch("/data/data.json")
       .then((res) => res.json())
-      .then((data) => {setSidebarItems(data.sidebarItems)})
-      
+      .then((data) => {setSidebarItems(data.sidebarItems || [])})
+      .catch((error) => console.error("Error fetching sidebar data:", error))
   }, [])
 
   return (
     <div className={`relative z-10 transition-all duration-300 ease-in-out flex-shrink-0 ${isSidebarOpen ? 'w-64' : 'w-20'}`}>
       <div className="h-full bg-[#1e1e1e] backdrop-blur-md p-4 flex flex-col border-r border-[#2f2f2f]">
-        <button 
+        <button
           className="p-2 rounded-full hover:bg-[#2f2f2f] transition-colors max-w-fit cursor-pointer"
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
         >
           <Menu size={24} />
         </button>
         <nav className="mt-8 flex-grow">
-          {sidebarItems.map((item) => {
+          {sidebarItems?.map((item) => {
             const IconComponent = ICONS[item.icon]
             return (
               <Link key={item.name} href={item.href}>

@@ -1,0 +1,64 @@
+{
+  "clients": [
+    {
+      "name": "Ethan Carter",
+      "email": "Ethan.Carter@example.com",
+      "phoneNumber": "+1 415-678-9023",
+      "country": "United States"
+    },
+    {
+      "name": "Sophia Mitchell",
+      "email": "Sophia.Mitchell@example.com",
+      "phoneNumber": "+44 7911 123456",
+      "country": "United Kingdom"
+    },
+    {
+      "name": "Liam Harrison",
+      "email": "Liam.Harrison@example.com",
+      "phoneNumber": "+49 1523 4567890",
+      "country": "Germany"
+    },
+    {
+      "name": "Ava Bennett",
+      "email": "Ava.Bennett@example.com",
+      "phoneNumber": "+91 98765 43210",
+      "country": "India"
+    },
+    {
+      "name": "Noah Reynolds",
+      "email": "Noah.Reynolds@example.com",
+      "phoneNumber": "+61 412 345 678",
+      "country": "Australia"
+    },
+    {
+      "name": "Olivia Smith",
+      "email": "Olivia.Smith@example.com",
+      "phoneNumber": "+1 202-555-0173",
+      "country": "United States"
+    },
+    {
+      "name": "James Johnson",
+      "email": "James.Johnson@example.com",
+      "phoneNumber": "+44 7911 987654",
+      "country": "United Kingdom"
+    },
+    {
+      "name": "Isabella Brown",
+      "email": "Isabella.Brown@example.com",
+      "phoneNumber": "+49 1523 9876543",
+      "country": "Germany"
+    },
+    {
+      "name": "Mia Wilson",
+      "email": "Mia.Wilson@example.com",
+      "phoneNumber": "+91 87654 32109",
+      "country": "India"
+    },
+    {
+      "name": "Lucas Martin",
+      "email": "Lucas.Martin@example.com",
+      "phoneNumber": "+61 412 987 654",
+      "country": "Australia"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "status": "Pending",
+    "percentage": 24,
+    "color": "#F4C542"
+  },
+  {
+    "status": "Processing",
+    "percentage": 18,
+    "color": "#2CA8E2"
+  },
+  {
+    "status": "Canceled",
+    "percentage": 12,
+    "color": "#E94F4F"
+  },
+  {
+    "status": "Delivered",
+    "percentage": 47,
+    "color": "#7AC74F"
+  }
+]

@@ -6,18 +6,18 @@
       "icon": "Home"
     },
     {
-      "name": "Pricing",
-      "href": "/pricing",
+      "name": "Sales",
+      "href": "/sales",
       "icon": "DollarSign"
     },
     {
-      "name": "Shopping",
-      "href": "/shopping",
+      "name": "Products",
+      "href": "/products",
       "icon": "ShoppingBag"
     },
     {
-      "name": "Cart",
-      "href": "/cart",
+      "name": "Orders",
+      "href": "/orders",
       "icon": "ShoppingCart"
     },
     {
@@ -36,8 +36,8 @@
       "icon": "Mail"
     },
     {
-      "name": "Info",
-      "href": "/info",
+      "name": "Help",
+      "href": "/help",
       "icon": "Info"
     },
     {
